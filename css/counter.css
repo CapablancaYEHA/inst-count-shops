@@ -1,0 +1,139 @@
+html {
+    box-sizing: border-box;
+
+}
+*, *:before, *:after {
+     box-sizing: inherit;
+}
+
+*, table, td, tr {
+    padding: 0;
+    margin: 0;
+}
+div#newHeader {
+    display: none !important;
+}
+div#Footer {
+    display: none !important;
+}
+div#maincontainer {
+    box-shadow: 0 !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: 0 !important;
+    -webkit-box-shadow: none !important;
+    width: 100% !important;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.wrapper {
+    display: block;
+    width: 100%;
+}
+.logo {
+    margin-bottom: 32px;
+    margin-left: 24px;
+    margin-top: 24px;
+}
+.tablecontainer {
+    display: block;
+    margin-left: 25%;
+    margin-bottom: 40px;
+
+}
+.sportname {
+    height: 75px;
+    vertical-align: bottom;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    text-align: center;
+    width: 180px;
+}
+.sportname_only {
+    height: 75px;
+    vertical-align: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    text-align: center;
+    width: 180px;
+}
+.sportname p, .sportname_only {
+    line-height: 0.8;
+    padding-bottom: 5px;
+    line-height: 1.1;
+}
+
+.userphoto {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+.nophoto {
+    padding-left: 5px;
+    padding-right: 30px;
+}
+.userphoto img {
+    width: 100px;
+}
+.userphoto p {
+    font-size: 12px;
+}
+.instlogo {
+    width: 90px;
+    vertical-align: middle;
+    padding-bottom: 12px;
+    margin-left: 130px;
+}
+.instlogo img {
+    width: 100%;
+    vertical-align: middle;
+}
+.textfollow, .textpost {
+    text-align: center;
+    padding-bottom: 10px;
+    min-width: 180px;
+}
+
+.textfollow {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.textpost__number {
+    font-size: 64px;
+    line-height: 0.8;
+}
+.textpost__text {
+    font-size: 13px;
+}
+.sportlogo {
+    width: 132px;
+    vertical-align: top;
+    text-align: center;
+    margin: 0 auto;
+    background-image: url('https://www.decathlon.ru/ecru/static/instagram-count/img/brands_sprite.jpg');
+    background-repeat:no-repeat;
+    margin-top: 5px;
+}
+.domyos {
+    display: block;
+    height: 28px;
+    background-position: 0 -93px;
+}
+.btwin {
+    display: block;
+    height: 14px;
+    background-position: 0 -77px;
+}
+.oxelo {
+    display: block;
+    height: 37px;
+    background-position: 0 -220px;
+}
