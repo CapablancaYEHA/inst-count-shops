@@ -1,0 +1,164 @@
+html {
+    box-sizing: border-box;
+
+}
+*, *:before, *:after {
+     box-sizing: inherit;
+}
+
+*, table, td, tr {
+    padding: 0;
+    margin: 0;
+}
+div#newHeader {
+    display: none !important;
+}
+div#Footer {
+    display: none !important;
+}
+div#maincontainer {
+    box-shadow: 0 !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: 0 !important;
+    -webkit-box-shadow: none !important;
+    width: 100% !important;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.wrapper {
+    display: block;
+    width: 100%;
+}
+.logo {
+    margin-bottom: 32px;
+    margin-left: 24px;
+    margin-top: 24px;
+}
+.tablecontainer {
+    display: table;
+
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.fade {
+     display: none;
+}
+.current {
+    display: block;
+}
+div#tc_1 {
+    position: relative;
+    top: 30;
+}
+div#tc_2 {
+    position: relative;
+    top: -450;
+}
+
+.sportname {
+    height: 75px;
+    vertical-align: bottom;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    text-align: center;
+    width: 180px;
+}
+.sportname_only {
+    height: 75px;
+    vertical-align: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    text-align: center;
+    width: 180px;
+}
+.sportname p, .sportname_only {
+    line-height: 0.8;
+    padding-bottom: 5px;
+    line-height: 1.1;
+}
+
+.userphoto {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+.nophoto {
+    padding-left: 5px;
+    padding-right: 30px;
+}
+.userphoto img {
+    width: 100px;
+}
+.userphoto p {
+    font-size: 12px;
+}
+.instlogo {
+    width: 90px;
+    vertical-align: middle;
+    padding-bottom: 12px;
+}
+.instlogo img {
+    width: 90px;
+    vertical-align: middle;
+}
+.vklogo{
+    width: 90px;
+    vertical-align: middle;
+    padding-bottom: 12px;
+    padding-left: 72px;
+}
+.vklogo img {
+    width: 90px;
+    vertical-align: middle;
+}
+.textfollow, .textpost {
+    text-align: center;
+    padding-bottom: 8px;
+    min-width: 160px;
+}
+
+.textfollow {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.textpost__number {
+    font-size: 48px;
+    line-height: 0.8;
+}
+.textpost__text {
+    padding-top: 8px;
+    font-size: 24px;
+}
+.sportlogo {
+    width: 132px;
+    vertical-align: top;
+    text-align: center;
+    margin: 0 auto;
+    background-image: url('../img/brands_sprite.jpg');
+    background-repeat:no-repeat;
+    margin-top: 5px;
+}
+.domyos {
+    display: block;
+    height: 28px;
+    background-position: 0 -93px;
+}
+.btwin {
+    display: block;
+    height: 14px;
+    background-position: 0 -77px;
+}
+.oxelo {
+    display: block;
+    height: 37px;
+    background-position: 0 -220px;
+}
